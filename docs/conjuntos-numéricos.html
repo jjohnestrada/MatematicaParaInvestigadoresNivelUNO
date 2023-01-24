@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 3 Conjuntos numéricos | Matemáticas para investigadores nivel uno</title>
+  <meta name="description" content="Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro." />
+  <meta name="generator" content="bookdown 0.24.7 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 3 Conjuntos numéricos | Matemáticas para investigadores nivel uno" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 3 Conjuntos numéricos | Matemáticas para investigadores nivel uno" />
+  
+  <meta name="twitter:description" content="Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro." />
+  
+
+<meta name="author" content="Rubén Darío Manrique Hernández - Juan Alberto Arias Quiceno - John Jairo Estrada Álvarez" />
+
+
+<meta name="date" content="2022-02-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="conceptos-introductorios.html"/>
+<link rel="next" href="recta-real-y-desigualdades.html"/>
+<script src="libs/header-attrs-2.11.14/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Matemáticas para investigadores nivel uno</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like <span>https://bookdown.org/yihui/bookdown</span><span></span></a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#justificación"><i class="fa fa-check"></i><b>1.1</b> Justificación<span></span></a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#objetivo-general"><i class="fa fa-check"></i><b>1.2</b> Objetivo General<span></span></a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#obejtivo-específicos"><i class="fa fa-check"></i><b>1.2.1</b> Obejtivo Específicos<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#presentación-del-contenido"><i class="fa fa-check"></i><b>1.3</b> Presentación del contenido<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html"><i class="fa fa-check"></i><b>2</b> Conceptos introductorios<span></span></a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#teoría-de-conjuntos"><i class="fa fa-check"></i><b>2.1</b> Teoría de conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.2" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-la-unión"><i class="fa fa-check"></i><b>2.2</b> Propiedades de la Unión<span></span></a></li>
+<li class="chapter" data-level="2.3" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-la-intersección"><i class="fa fa-check"></i><b>2.3</b> Propiedades de la Intersección<span></span></a></li>
+<li class="chapter" data-level="2.4" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-la-unión-y-la-intersección"><i class="fa fa-check"></i><b>2.4</b> Propiedades de la unión y la intersección<span></span></a></li>
+<li class="chapter" data-level="2.5" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#diferencia-entre-dos-conjuntos"><i class="fa fa-check"></i><b>2.5</b> Diferencia entre dos conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.6" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#complemento-de-un-conjunto"><i class="fa fa-check"></i><b>2.6</b> Complemento de un conjunto<span></span></a></li>
+<li class="chapter" data-level="2.7" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-del-algebra-de-conjuntos"><i class="fa fa-check"></i><b>2.7</b> Propiedades del algebra de conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.8" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#operaciones-con-conjuntos"><i class="fa fa-check"></i><b>2.8</b> Operaciones con conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.9" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#ejemplo1"><i class="fa fa-check"></i><b>2.9</b> Ejemplo1<span></span></a></li>
+<li class="chapter" data-level="2.10" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#ejemplo2"><i class="fa fa-check"></i><b>2.10</b> Ejemplo2<span></span></a></li>
+<li class="chapter" data-level="2.11" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#ejemplo3"><i class="fa fa-check"></i><b>2.11</b> Ejemplo3<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="conjuntos-numéricos.html"><a href="conjuntos-numéricos.html"><i class="fa fa-check"></i><b>3</b> Conjuntos numéricos<span></span></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="conjuntos-numéricos.html"><a href="conjuntos-numéricos.html#conjuntos-numéricos-1"><i class="fa fa-check"></i><b>3.1</b> Conjuntos numéricos<span></span></a></li>
+<li class="chapter" data-level="3.2" data-path="conjuntos-numéricos.html"><a href="conjuntos-numéricos.html#propiedades-de-los-números-reales"><i class="fa fa-check"></i><b>3.2</b> Propiedades de los números Reales<span></span></a></li>
+<li class="chapter" data-level="3.3" data-path="conjuntos-numéricos.html"><a href="conjuntos-numéricos.html#evaluación-conjuntos-y-recta-real"><i class="fa fa-check"></i><b>3.3</b> Evaluación (Conjuntos y recta real)<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html"><i class="fa fa-check"></i><b>4</b> Recta real y desigualdades<span></span></a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#desigualdades-y-conjuntos-de-intervalos-en-la-recta-real"><i class="fa fa-check"></i><b>4.1</b> Desigualdades y conjuntos de intervalos en la recta real<span></span></a></li>
+<li class="chapter" data-level="4.2" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplos-para-la-solución-de-desigualdades-usando-las-propiedades-básicas"><i class="fa fa-check"></i><b>4.2</b> Ejemplos para la solución de desigualdades usando las propiedades básicas<span></span></a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-1"><i class="fa fa-check"></i><b>4.2.1</b> <strong>Ejemplo 1</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.2" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-2"><i class="fa fa-check"></i><b>4.2.2</b> <strong>Ejemplo 2</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-3"><i class="fa fa-check"></i><b>4.2.3</b> <strong>Ejemplo 3</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-4"><i class="fa fa-check"></i><b>4.2.4</b> <strong>Ejemplo 4</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.5" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-5"><i class="fa fa-check"></i><b>4.2.5</b> <strong>Ejemplo 5</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.6" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-6"><i class="fa fa-check"></i><b>4.2.6</b> <strong>Ejemplo 6</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.7" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-7"><i class="fa fa-check"></i><b>4.2.7</b> <strong>Ejemplo 7</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.8" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-8"><i class="fa fa-check"></i><b>4.2.8</b> <strong>Ejemplo 8</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.9" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-9"><i class="fa fa-check"></i><b>4.2.9</b> <strong>Ejemplo 9</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.10" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-10"><i class="fa fa-check"></i><b>4.2.10</b> <strong>Ejemplo 10</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.11" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-11"><i class="fa fa-check"></i><b>4.2.11</b> <strong>Ejemplo 11</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.12" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-12"><i class="fa fa-check"></i><b>4.2.12</b> <strong>Ejemplo 12</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.13" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-13"><i class="fa fa-check"></i><b>4.2.13</b> <strong>Ejemplo 13</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.14" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-14"><i class="fa fa-check"></i><b>4.2.14</b> <strong>Ejemplo 14</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.15" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-15a"><i class="fa fa-check"></i><b>4.2.15</b> <strong>Ejemplo 15A</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.16" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-15b"><i class="fa fa-check"></i><b>4.2.16</b> <strong>Ejemplo 15B</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.17" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-16a"><i class="fa fa-check"></i><b>4.2.17</b> <strong>Ejemplo 16A</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.18" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-16b"><i class="fa fa-check"></i><b>4.2.18</b> <strong>Ejemplo 16B</strong><span></span></a></li>
+<li class="chapter" data-level="4.2.19" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-16c"><i class="fa fa-check"></i><b>4.2.19</b> <strong>Ejemplo 16C</strong><span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#evaluación-fórmula-del-estudiante-parábola-y-línea-recta"><i class="fa fa-check"></i><b>4.3</b> Evaluación (Fórmula del Estudiante, Parábola y Línea Recta)<span></span></a></li>
+<li class="chapter" data-level="4.4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#concepto-de-valor-absoluto"><i class="fa fa-check"></i><b>4.4</b> Concepto de valor absoluto<span></span></a>
+<ul>
+<li class="chapter" data-level="4.4.1" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-1-1"><i class="fa fa-check"></i><b>4.4.1</b> Ejemplo 1<span></span></a></li>
+<li class="chapter" data-level="4.4.2" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-2-1"><i class="fa fa-check"></i><b>4.4.2</b> Ejemplo 2<span></span></a></li>
+<li class="chapter" data-level="4.4.3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-3-1"><i class="fa fa-check"></i><b>4.4.3</b> Ejemplo 3<span></span></a></li>
+<li class="chapter" data-level="4.4.4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-4-1"><i class="fa fa-check"></i><b>4.4.4</b> Ejemplo 4<span></span></a></li>
+<li class="chapter" data-level="4.4.5" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-5-1"><i class="fa fa-check"></i><b>4.4.5</b> Ejemplo 5<span></span></a></li>
+<li class="chapter" data-level="4.4.6" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-6-1"><i class="fa fa-check"></i><b>4.4.6</b> Ejemplo 6<span></span></a></li>
+<li class="chapter" data-level="4.4.7" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-7-1"><i class="fa fa-check"></i><b>4.4.7</b> Ejemplo 7<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="4.5" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#evaluación-desigualdades-y-valor-absoluto"><i class="fa fa-check"></i><b>4.5</b> Evaluación (Desigualdades y Valor absoluto)<span></span></a></li>
+<li class="chapter" data-level="4.6" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#evaluación-problemas-con-desigualdades"><i class="fa fa-check"></i><b>4.6</b> Evaluación (Problemas con desigualdades)<span></span></a></li>
+<li class="chapter" data-level="4.7" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#potenciación-y-radicales."><i class="fa fa-check"></i><b>4.7</b> Potenciación y radicales.<span></span></a></li>
+<li class="chapter" data-level="4.8" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ecuaciones-lineales-y-cuadráticas."><i class="fa fa-check"></i><b>4.8</b> Ecuaciones lineales y cuadráticas.<span></span></a></li>
+<li class="chapter" data-level="4.9" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ecuaciones-polinomicas-de-grado-mayor-a-2."><i class="fa fa-check"></i><b>4.9</b> Ecuaciones polinomicas de grado mayor a 2.<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="sistemas-de-ecuaciones-lineales..html"><a href="sistemas-de-ecuaciones-lineales..html"><i class="fa fa-check"></i><b>5</b> Sistemas de ecuaciones lineales.<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="sistemas-de-ecuaciones-lineales..html"><a href="sistemas-de-ecuaciones-lineales..html#sistemas-de-ecuaciones-no-lineales."><i class="fa fa-check"></i><b>5.1</b> Sistemas de ecuaciones no lineales.<span></span></a></li>
+<li class="chapter" data-level="5.2" data-path="sistemas-de-ecuaciones-lineales..html"><a href="sistemas-de-ecuaciones-lineales..html#solución-numérica-de-ecuaciones-no-lianeales."><i class="fa fa-check"></i><b>5.2</b> Solución numérica de ecuaciones no lianeales.<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="planteo-y-solución-de-problemas.html"><a href="planteo-y-solución-de-problemas.html"><i class="fa fa-check"></i><b>6</b> Planteo y solución de problemas<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="planteo-y-solución-de-problemas.html"><a href="planteo-y-solución-de-problemas.html#regla-de-tres-simple-e-inversa"><i class="fa fa-check"></i><b>6.1</b> Regla de tres simple e inversa<span></span></a></li>
+<li class="chapter" data-level="6.2" data-path="planteo-y-solución-de-problemas.html"><a href="planteo-y-solución-de-problemas.html#regla-de-tres-compuesta"><i class="fa fa-check"></i><b>6.2</b> Regla de tres compuesta<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html"><i class="fa fa-check"></i><b>7</b> Concepto de relación<span></span></a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#concepto-de-función"><i class="fa fa-check"></i><b>7.1</b> Concepto de función<span></span></a></li>
+<li class="chapter" data-level="7.2" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#tipos-de-funciones"><i class="fa fa-check"></i><b>7.2</b> Tipos de funciones<span></span></a></li>
+<li class="chapter" data-level="7.3" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#operaciones-entre-funciones"><i class="fa fa-check"></i><b>7.3</b> Operaciones entre funciones<span></span></a></li>
+<li class="chapter" data-level="7.4" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#regresión-linneal"><i class="fa fa-check"></i><b>7.4</b> Regresión linneal<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="evidencia-del-aprendizaje.html"><a href="evidencia-del-aprendizaje.html"><i class="fa fa-check"></i><b>8</b> Evidencia del aprendizaje<span></span></a></li>
+<li><a href="referencias.html#referencias">Referencias<span></span></a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Matemáticas para investigadores nivel uno</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="conjuntos-numéricos" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Capítulo 3</span> Conjuntos numéricos<a href="conjuntos-numéricos.html#conjuntos-numéricos" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPinumero"></span>
+<img src="images/FigPinumero.png" alt="Número Irracional [Imagen tomada de [@zill2012algebra] pág $50$]" width="50%" />
+<p class="caption">
+Figura 3.1: Número Irracional [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(50\)</span>]
+</p>
+</div>
+
+<div class="definition">
+<span id="def:unnamed-chunk-14" class="definition"><strong>Definición3.1  </strong></span>El conjunto de los números naturales consta de:
+</div>
+<p><span class="math display">\[
+N=\{ 1,2,3,4,...\}
+\]</span></p>
+
+<div class="definition">
+<span id="def:unnamed-chunk-15" class="definition"><strong>Definición3.2  </strong></span>El conjunto de los números enteros consta de:
+</div>
+<p><span class="math display">\[
+Z=\{...,-3,-2,-1,0,1,2,3,4,...\}
+\]</span></p>
+
+<div class="definition">
+<span id="def:unnamed-chunk-16" class="definition"><strong>Definición3.3  </strong></span>El conjunto de los números racionales consta de todos los números que son cociente de dos enteros, siempre que el denominador sea diferente de cero. Es decir:
+</div>
+<span class="math display">\[
+Q=\{ \dfrac{p}{q} | p \ \text{y} \ q \ \ \text{son números enteros,} \ \ q \ \neq \ 0\}
+\]</span>
+
+<div class="definition">
+<span id="def:unnamed-chunk-17" class="definition"><strong>Definición3.4  </strong></span>El conjunto de los números irracionales consta de todos los números que no son el cociente de dos enteros, siempre que el denominador sea diferente de cero. Es decir:
+</div>
+<span class="math display">\[
+Q^{*}=\{x |   \ x \neq \ \dfrac{p}{q}, \ \ q \ \neq \ 0\   \}
+\]</span>
+
+<div class="definition">
+<span id="def:unnamed-chunk-18" class="definition"><strong>Definición3.5  </strong></span>El conjunto de los números reales consta de la unión entre el conjunto de los racionales y los irracionales. Es decir:
+</div>
+<p><span class="math display">\[
+R=\{x |   \ x \in Q \ \text{o} \ x \in Q^{*} \}=Q \cup Q^{*}
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigConjuntoN"></span>
+<img src="images/EsquemaConjuntosReales1.jpg" alt="Diagrama de los conjuntos numéricos [Imagen tomada de [@swokowski1996algebra] pág $3$]" width="200" />
+<p class="caption">
+Figura 3.2: Diagrama de los conjuntos numéricos [Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(3\)</span>]
+</p>
+</div>
+<div id="conjuntos-numéricos-1" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Conjuntos numéricos<a href="conjuntos-numéricos.html#conjuntos-numéricos-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="propiedades-de-los-números-reales" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Propiedades de los números Reales<a href="conjuntos-numéricos.html#propiedades-de-los-números-reales" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesReales"></span>
+<img src="images/FigPropiedadesReales.png" alt="Propiedades de los números reales [Imagen tomada de [@zill2012algebra] pág $51$]" width="438" />
+<p class="caption">
+Figura 3.3: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(51\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesRealesB"></span>
+<img src="images/FigPropiedadesRealesB.png" alt="Propiedades de los números reales [Imagen tomada de [@zill2012algebra] pág $51$]" width="519" />
+<p class="caption">
+Figura 3.4: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(51\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesRealesC"></span>
+<img src="images/FigPropiedadesRealesC.png" alt="Propiedades de los números reales [Imagen tomada de [@zill2012algebra] pág $53$]" width="520" />
+<p class="caption">
+Figura 3.5: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(53\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesRealesD"></span>
+<img src="images/FigPropiedadesRealesD.png" alt="Propiedades de los números reales [Imagen tomada de [@zill2012algebra] pág $53$]" width="520" />
+<p class="caption">
+Figura 3.6: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(53\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesRealesE"></span>
+<img src="images/FigPropiedadesRealesE.png" alt="Propiedades de los números reales [Imagen tomada de [@zill2012algebra] pág $54$]" width="432" />
+<p class="caption">
+Figura 3.7: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(54\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesRealesF1"></span>
+<img src="images/PropiedadesFraccionarios1.jpg" alt="Propiedades de los números reales [Imagen tomada de [@swokowski1996algebra] pág $8$]" width="276" />
+<p class="caption">
+Figura 3.8: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(8\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigPropiedadesRealesF"></span>
+<img src="images/FigPropiedadesRealesF.png" alt="Propiedades de los números reales [Imagen tomada de [@zill2012algebra] pág $55$]" width="436" />
+<p class="caption">
+Figura 3.9: Propiedades de los números reales [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(55\)</span>]
+</p>
+</div>
+</div>
+<div id="evaluación-conjuntos-y-recta-real" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Evaluación (Conjuntos y recta real)<a href="conjuntos-numéricos.html#evaluación-conjuntos-y-recta-real" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://johnshinyuces2020.shinyapps.io/parcialSIMO02A/#section-conjuntos?showcase=0" width="672" height="2000px" data-external="1">
+</iframe>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="conceptos-introductorios.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="recta-real-y-desigualdades.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-Conceptos-Introductorios.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["LibroMateParaInvestigadoresNivelUno 11-2021.pdf", "LibroMateParaInvestigadoresNivelUno 11-2021.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

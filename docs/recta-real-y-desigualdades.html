@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Capítulo 3 Recta real y desigualdades | Matemáticas para investigadores nivel uno</title>
+  <meta name="description" content="Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro." />
+  <meta name="generator" content="bookdown 0.24.7 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Capítulo 3 Recta real y desigualdades | Matemáticas para investigadores nivel uno" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Capítulo 3 Recta real y desigualdades | Matemáticas para investigadores nivel uno" />
+  
+  <meta name="twitter:description" content="Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro." />
+  
+
+<meta name="author" content="Rubén Darío Manrique Hernández - Juan Alberto Arias Quiceno - John Jairo Estrada Álvarez" />
+
+
+<meta name="date" content="2022-02-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="conceptos-introductorios.html"/>
+<link rel="next" href="sistemas-de-ecuaciones-lineales..html"/>
+<script src="libs/header-attrs-2.11.14/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Matemáticas para investigadores nivel uno</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like <span>https://bookdown.org/yihui/bookdown</span><span></span></a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#justificación"><i class="fa fa-check"></i><b>1.1</b> Justificación<span></span></a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#objetivo-general"><i class="fa fa-check"></i><b>1.2</b> Objetivo General<span></span></a>
+<ul>
+<li class="chapter" data-level="1.2.1" data-path="index.html"><a href="index.html#obejtivo-específicos"><i class="fa fa-check"></i><b>1.2.1</b> Obejtivo Específicos<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#presentación-del-contenido"><i class="fa fa-check"></i><b>1.3</b> Presentación del contenido<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html"><i class="fa fa-check"></i><b>2</b> Conceptos introductorios<span></span></a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#teoría-de-conjuntos"><i class="fa fa-check"></i><b>2.1</b> Teoría de conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.2" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-la-unión"><i class="fa fa-check"></i><b>2.2</b> Propiedades de la Unión<span></span></a></li>
+<li class="chapter" data-level="2.3" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-la-intersección"><i class="fa fa-check"></i><b>2.3</b> Propiedades de la Intersección<span></span></a></li>
+<li class="chapter" data-level="2.4" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-la-unión-y-la-intersección"><i class="fa fa-check"></i><b>2.4</b> Propiedades de la unión y la intersección<span></span></a></li>
+<li class="chapter" data-level="2.5" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#diferencia-entre-dos-conjuntos"><i class="fa fa-check"></i><b>2.5</b> Diferencia entre dos conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.6" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#complemento-de-un-conjunto"><i class="fa fa-check"></i><b>2.6</b> Complemento de un conjunto<span></span></a></li>
+<li class="chapter" data-level="2.7" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-del-algebra-de-conjuntos"><i class="fa fa-check"></i><b>2.7</b> Propiedades del algebra de conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.8" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#operaciones-con-conjuntos"><i class="fa fa-check"></i><b>2.8</b> Operaciones con conjuntos<span></span></a></li>
+<li class="chapter" data-level="2.9" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#ejemplo1"><i class="fa fa-check"></i><b>2.9</b> Ejemplo1<span></span></a></li>
+<li class="chapter" data-level="2.10" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#ejemplo2"><i class="fa fa-check"></i><b>2.10</b> Ejemplo2<span></span></a></li>
+<li class="chapter" data-level="2.11" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#ejemplo3"><i class="fa fa-check"></i><b>2.11</b> Ejemplo3<span></span></a></li>
+<li class="chapter" data-level="2.12" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#conjuntos-numéricos"><i class="fa fa-check"></i><b>2.12</b> Conjuntos numéricos<span></span></a></li>
+<li class="chapter" data-level="2.13" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#propiedades-de-los-números-reales"><i class="fa fa-check"></i><b>2.13</b> Propiedades de los números Reales<span></span></a></li>
+<li class="chapter" data-level="2.14" data-path="conceptos-introductorios.html"><a href="conceptos-introductorios.html#evaluación-conjuntos-y-recta-real"><i class="fa fa-check"></i><b>2.14</b> Evaluación (Conjuntos y recta real)<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html"><i class="fa fa-check"></i><b>3</b> Recta real y desigualdades<span></span></a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#desigualdades-y-conjuntos-de-intervalos-en-la-recta-real"><i class="fa fa-check"></i><b>3.1</b> Desigualdades y conjuntos de intervalos en la recta real<span></span></a></li>
+<li class="chapter" data-level="3.2" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplos-para-la-solución-de-desigualdades-usando-las-propiedades-básicas"><i class="fa fa-check"></i><b>3.2</b> Ejemplos para la solución de desigualdades usando las propiedades básicas<span></span></a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-1"><i class="fa fa-check"></i><b>3.2.1</b> <strong>Ejemplo 1</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.2" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-2"><i class="fa fa-check"></i><b>3.2.2</b> <strong>Ejemplo 2</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-3"><i class="fa fa-check"></i><b>3.2.3</b> <strong>Ejemplo 3</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-4"><i class="fa fa-check"></i><b>3.2.4</b> <strong>Ejemplo 4</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.5" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-5"><i class="fa fa-check"></i><b>3.2.5</b> <strong>Ejemplo 5</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.6" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-6"><i class="fa fa-check"></i><b>3.2.6</b> <strong>Ejemplo 6</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.7" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-7"><i class="fa fa-check"></i><b>3.2.7</b> <strong>Ejemplo 7</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.8" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-8"><i class="fa fa-check"></i><b>3.2.8</b> <strong>Ejemplo 8</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.9" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-9"><i class="fa fa-check"></i><b>3.2.9</b> <strong>Ejemplo 9</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.10" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-10"><i class="fa fa-check"></i><b>3.2.10</b> <strong>Ejemplo 10</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.11" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-11"><i class="fa fa-check"></i><b>3.2.11</b> <strong>Ejemplo 11</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.12" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-12"><i class="fa fa-check"></i><b>3.2.12</b> <strong>Ejemplo 12</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.13" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-13"><i class="fa fa-check"></i><b>3.2.13</b> <strong>Ejemplo 13</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.14" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-14"><i class="fa fa-check"></i><b>3.2.14</b> <strong>Ejemplo 14</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.15" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-15a"><i class="fa fa-check"></i><b>3.2.15</b> <strong>Ejemplo 15A</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.16" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-15b"><i class="fa fa-check"></i><b>3.2.16</b> <strong>Ejemplo 15B</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.17" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-16a"><i class="fa fa-check"></i><b>3.2.17</b> <strong>Ejemplo 16A</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.18" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-16b"><i class="fa fa-check"></i><b>3.2.18</b> <strong>Ejemplo 16B</strong><span></span></a></li>
+<li class="chapter" data-level="3.2.19" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-16c"><i class="fa fa-check"></i><b>3.2.19</b> <strong>Ejemplo 16C</strong><span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#evaluación-fórmula-del-estudiante-parábola-y-línea-recta"><i class="fa fa-check"></i><b>3.3</b> Evaluación (Fórmula del Estudiante, Parábola y Línea Recta)<span></span></a></li>
+<li class="chapter" data-level="3.4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#concepto-de-valor-absoluto"><i class="fa fa-check"></i><b>3.4</b> Concepto de valor absoluto<span></span></a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-1-1"><i class="fa fa-check"></i><b>3.4.1</b> Ejemplo 1<span></span></a></li>
+<li class="chapter" data-level="3.4.2" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-2-1"><i class="fa fa-check"></i><b>3.4.2</b> Ejemplo 2<span></span></a></li>
+<li class="chapter" data-level="3.4.3" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-3-1"><i class="fa fa-check"></i><b>3.4.3</b> Ejemplo 3<span></span></a></li>
+<li class="chapter" data-level="3.4.4" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-4-1"><i class="fa fa-check"></i><b>3.4.4</b> Ejemplo 4<span></span></a></li>
+<li class="chapter" data-level="3.4.5" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-5-1"><i class="fa fa-check"></i><b>3.4.5</b> Ejemplo 5<span></span></a></li>
+<li class="chapter" data-level="3.4.6" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-6-1"><i class="fa fa-check"></i><b>3.4.6</b> Ejemplo 6<span></span></a></li>
+<li class="chapter" data-level="3.4.7" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ejemplo-7-1"><i class="fa fa-check"></i><b>3.4.7</b> Ejemplo 7<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#evaluación-desigualdades-y-valor-absoluto"><i class="fa fa-check"></i><b>3.5</b> Evaluación (Desigualdades y Valor absoluto)<span></span></a></li>
+<li class="chapter" data-level="3.6" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#evaluación-problemas-con-desigualdades"><i class="fa fa-check"></i><b>3.6</b> Evaluación (Problemas con desigualdades)<span></span></a></li>
+<li class="chapter" data-level="3.7" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#potenciación-y-radicales."><i class="fa fa-check"></i><b>3.7</b> Potenciación y radicales.<span></span></a></li>
+<li class="chapter" data-level="3.8" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ecuaciones-lineales-y-cuadráticas."><i class="fa fa-check"></i><b>3.8</b> Ecuaciones lineales y cuadráticas.<span></span></a></li>
+<li class="chapter" data-level="3.9" data-path="recta-real-y-desigualdades.html"><a href="recta-real-y-desigualdades.html#ecuaciones-polinomicas-de-grado-mayor-a-2."><i class="fa fa-check"></i><b>3.9</b> Ecuaciones polinomicas de grado mayor a 2.<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="sistemas-de-ecuaciones-lineales..html"><a href="sistemas-de-ecuaciones-lineales..html"><i class="fa fa-check"></i><b>4</b> Sistemas de ecuaciones lineales.<span></span></a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="sistemas-de-ecuaciones-lineales..html"><a href="sistemas-de-ecuaciones-lineales..html#sistemas-de-ecuaciones-no-lineales."><i class="fa fa-check"></i><b>4.1</b> Sistemas de ecuaciones no lineales.<span></span></a></li>
+<li class="chapter" data-level="4.2" data-path="sistemas-de-ecuaciones-lineales..html"><a href="sistemas-de-ecuaciones-lineales..html#solución-numérica-de-ecuaciones-no-lianeales."><i class="fa fa-check"></i><b>4.2</b> Solución numérica de ecuaciones no lianeales.<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="planteo-y-solución-de-problemas.html"><a href="planteo-y-solución-de-problemas.html"><i class="fa fa-check"></i><b>5</b> Planteo y solución de problemas<span></span></a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="planteo-y-solución-de-problemas.html"><a href="planteo-y-solución-de-problemas.html#regla-de-tres-simple-e-inversa"><i class="fa fa-check"></i><b>5.1</b> Regla de tres simple e inversa<span></span></a></li>
+<li class="chapter" data-level="5.2" data-path="planteo-y-solución-de-problemas.html"><a href="planteo-y-solución-de-problemas.html#regla-de-tres-compuesta"><i class="fa fa-check"></i><b>5.2</b> Regla de tres compuesta<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html"><i class="fa fa-check"></i><b>6</b> Concepto de relación<span></span></a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#concepto-de-función"><i class="fa fa-check"></i><b>6.1</b> Concepto de función<span></span></a></li>
+<li class="chapter" data-level="6.2" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#tipos-de-funciones"><i class="fa fa-check"></i><b>6.2</b> Tipos de funciones<span></span></a></li>
+<li class="chapter" data-level="6.3" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#operaciones-entre-funciones"><i class="fa fa-check"></i><b>6.3</b> Operaciones entre funciones<span></span></a></li>
+<li class="chapter" data-level="6.4" data-path="concepto-de-relación.html"><a href="concepto-de-relación.html#regresión-linneal"><i class="fa fa-check"></i><b>6.4</b> Regresión linneal<span></span></a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="evidencia-del-aprendizaje.html"><a href="evidencia-del-aprendizaje.html"><i class="fa fa-check"></i><b>7</b> Evidencia del aprendizaje<span></span></a></li>
+<li><a href="referencias.html#referencias">Referencias<span></span></a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Matemáticas para investigadores nivel uno</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="recta-real-y-desigualdades" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Capítulo 3</span> Recta real y desigualdades<a href="recta-real-y-desigualdades.html#recta-real-y-desigualdades" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigRectaReal1A"></span>
+<img src="images/RectaReal1.jpg" alt="Recta real [Imagen tomada de [@swokowski1996algebra] pág $9$]" width="306" />
+<p class="caption">
+Figura 3.1: Recta real [Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(9\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigRectaRealA"></span>
+<img src="images/FigRectaRealA.png" alt="Distancia en la recta real [Imagen tomada de [@zill2012algebra] pág $58$]" width="380" />
+<p class="caption">
+Figura 3.2: Distancia en la recta real [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(58\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigRectaRealB"></span>
+<img src="images/FigRectaRealB.png" alt="Signo de la recta real [Imagen tomada de [@zill2012algebra] pág $58$]" width="372" />
+<p class="caption">
+Figura 3.3: Signo de la recta real [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(58\)</span>]
+</p>
+</div>
+
+<div class="definition">
+<span id="def:unnamed-chunk-1" class="definition"><strong>Definición3.1  </strong></span>Se dice que el número real <span class="math inline">\(a\)</span> es menor que <span class="math inline">\(b\)</span>, lo que se escribe <span class="math inline">\(a&lt;b\)</span>, si y sólo si la diferencia <span class="math inline">\(b-a\)</span> es positiva. En símbolos: [Tomado de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(58\)</span>]
+</div>
+<p><span class="math display">\[
+a&lt;b \ \ \ \text{si y sólo si} \ \ \ (b-a)&gt;0
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:NotacionDesigualdades1"></span>
+<img src="images/NotacionDesigualdades1.jpg" alt="Notación de desigualdades[Imagen tomada de [@swokowski1996algebra] pág $9$]" width="50%" />
+<p class="caption">
+Figura 3.4: Notación de desigualdades[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(9\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigRectaReal1C"></span>
+<img src="images/PropiedadesDesigualdades1A.jpg" alt="Propiedades de desigualdades[Imagen tomada de [@swokowski1996algebra] pág $114$]" width="70%" />
+<p class="caption">
+Figura 3.5: Propiedades de desigualdades[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(114\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigRectaReal2C"></span>
+<img src="images/Desigualdades3.jpg" alt="Propiedades de desigualdades extras[Imagen tomada de [@swokowski1996algebra] pág $127$]" width="100%" />
+<p class="caption">
+Figura 3.6: Propiedades de desigualdades extras[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(127\)</span>]
+</p>
+</div>
+<div id="desigualdades-y-conjuntos-de-intervalos-en-la-recta-real" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Desigualdades y conjuntos de intervalos en la recta real<a href="recta-real-y-desigualdades.html#desigualdades-y-conjuntos-de-intervalos-en-la-recta-real" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Esta es una aplicación que muestra graficamente las desigualdades y los intervalos en la recta real, el Autor:Javier Cayetano Rodríguez (<a href="https://www.geogebra.org/m/ck59naqz" class="uri">https://www.geogebra.org/m/ck59naqz</a>) las elaboro usando geogebra.</p>
+<!-- https://www.geogebra.org/m/ck59naqz -->
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-elementConjuntosA2">
+
+</div>
+<script>  
+       var ggbAppConjuntosA2 = new GGBApplet({"material_id":"ck59naqz",
+       "width": 800,
+       "height": 400,
+       "showToolBar": false,
+       "showAlgebraInput": false,
+       "showMenuBar": false },
+       true);
+       
+         window.addEventListener("load", function() {  
+           ggbAppConjuntosA2.inject('ggb-elementConjuntosA2');
+      });
+</script>
+</div>
+<div id="ejemplos-para-la-solución-de-desigualdades-usando-las-propiedades-básicas" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Ejemplos para la solución de desigualdades usando las propiedades básicas<a href="recta-real-y-desigualdades.html#ejemplos-para-la-solución-de-desigualdades-usando-las-propiedades-básicas" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="ejemplo-1" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> <strong>Ejemplo 1</strong><a href="recta-real-y-desigualdades.html#ejemplo-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad <span class="math inline">\(8x+4&lt;16+5x\)</span></p>
+<p><strong>Solución</strong></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+8x+4 &amp;&lt;&amp; 16+5x\\
+8x+4+(-4) &amp;&lt;&amp; 16+5x+(-4) \\
+8x &amp; &lt; &amp; 5x+16-4 \\
+8x &amp; &lt; &amp; 5x+12 \\
+8x -5x &amp; &lt; &amp; 5x-5x+12 \\
+8x -5x &amp; &lt; &amp; 12 \\
+3x &amp; &lt; &amp; 12 \\
+3x\left(\dfrac{1}{3}\right) &amp; &lt; &amp; 12\left(\dfrac{1}{3}\right) \\
+\dfrac{3x}{3} &amp; &lt; &amp; \dfrac{12}{3}\\
+x &amp; &lt; &amp; 4
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+x \in (-\infty, 4)
+\]</span></p>
+<p><strong>Verificación</strong>: Por sustitución</p>
+<p>Como los valores de <span class="math inline">\(x\)</span> deben ser menores que <span class="math inline">\(4\)</span>, entonces se puede tomar <span class="math inline">\(x=3\)</span>. Por lo tanto al sustituir en la desigualdad inicial se debe cumplir dicha desigualdad.</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+8x+4 &amp;&lt;&amp; 16+5x\\
+8(3)+4 &amp;&lt;&amp; 16+5(3)\\
+24+4 &amp;&lt;&amp; 16+15\\
+28 &amp;&lt;&amp; 31\\
+\end{split}
+\end{equation}\]</span></p>
+</div>
+<div id="ejemplo-2" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> <strong>Ejemplo 2</strong><a href="recta-real-y-desigualdades.html#ejemplo-2" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad <span class="math inline">\(\dfrac{1}{2}-3x \leq \dfrac{5}{2}\)</span></p>
+<p><strong>Solución</strong></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+\dfrac{1}{2}-3x &amp; \leq &amp; \dfrac{5}{2}\\
+-\dfrac{1}{2}+\dfrac{1}{2}-3x &amp; \leq &amp; \dfrac{5}{2}-\dfrac{1}{2}\\
+-3x &amp; \leq &amp; \dfrac{5-1}{2} \\
+-3x &amp; \leq &amp; \dfrac{4}{2} \\
+-3x &amp; \leq &amp; 2 \\
+-3x\left(\dfrac{1}{3}\right) &amp; \leq &amp; 2\left(\dfrac{1}{3}\right) \\
+\dfrac{-3x}{3} &amp; \leq &amp; \dfrac{2}{3}\\
+-x &amp; \leq &amp; \dfrac{2}{3}\\
+x &amp; \geq &amp; \dfrac{-2}{3}
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+x \in \left [-\dfrac{2}{3}, +\infty \right)
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigDesigualdad2"></span>
+<img src="images/Desigualdades4.jpg" alt="Respuesta en la recta real ejemplo 1[Imagen tomada de [@zill2012algebra] pág $146$]" width="50%" />
+<p class="caption">
+Figura 3.7: Respuesta en la recta real ejemplo 1[Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(146\)</span>]
+</p>
+</div>
+</div>
+<div id="ejemplo-3" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> <strong>Ejemplo 3</strong><a href="recta-real-y-desigualdades.html#ejemplo-3" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad <span class="math inline">\(-7 \leq 2x+1 &lt; 19\)</span></p>
+<p><strong>Solución</strong></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+-7 &amp; \leq 2x+1 &lt;  19\\
+-7-1 &amp; \leq 2x+1-1 &lt;  19-1\\
+-8 &amp; \leq 2x &lt;  18\\
+-8\left(\dfrac{1}{2}\right) &amp; \leq 2x\left(\dfrac{1}{2}\right) &lt;  18\left(\dfrac{1}{2}\right)\\
+\left(\dfrac{-8}{2}\right) &amp; \leq \left(\dfrac{2x}{2}\right) &lt;  \left(\dfrac{18}{2}\right)\\
+-4 &amp; \leq x &lt;  9\\
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+x \in [-4,9)
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigDesigualdad3"></span>
+<img src="images/Desigualdades5.jpg" alt="Respuesta en la recta real ejemplo 3[Imagen tomada de [@zill2012algebra] pág $148$]" width="50%" />
+<p class="caption">
+Figura 3.8: Respuesta en la recta real ejemplo 3[Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(148\)</span>]
+</p>
+</div>
+</div>
+<div id="ejemplo-4" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> <strong>Ejemplo 4</strong><a href="recta-real-y-desigualdades.html#ejemplo-4" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad</p>
+<p><span class="math display">\[
+2x^2-x&lt;3
+\]</span></p>
+<p><strong>Solución</strong></p>
+<p><span class="math display">\[
+\begin{split}
+2x^2-x &amp;&lt;&amp; 3\\
+2x^2-x -3 &amp;&lt;&amp; 0\\
+(x+1)(2x-3) &amp;&lt;&amp; 0\\
+\end{split}
+\]</span>
+Los factores <span class="math inline">\((x+1)\)</span> y <span class="math inline">\((2x-3)\)</span> son cero en <span class="math inline">\(-1\)</span> y <span class="math inline">\(\dfrac{3}{2}\)</span>, respectivamente.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigDesigualdad6"></span>
+<img src="images/Desigualdades6.jpg" alt="Respuesta en la recta real ejemplo[Imagen tomada de [@swokowski1996algebra] pág $122$]" width="65%" />
+<p class="caption">
+Figura 3.9: Respuesta en la recta real ejemplo[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(122\)</span>]
+</p>
+</div>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigDesigualdad7"></span>
+<img src="images/ReglaSignos1.jpg" alt="Respuesta en la recta real ejemplo[Imagen tomada de [@swokowski1996algebra] pág $122$]" width="75%" />
+<p class="caption">
+Figura 3.10: Respuesta en la recta real ejemplo[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(122\)</span>]
+</p>
+</div>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[x\in \left(-1,\dfrac{3}{2}\right)\]</span></p>
+</div>
+<div id="ejemplo-5" class="section level3 hasAnchor" number="3.2.5">
+<h3><span class="header-section-number">3.2.5</span> <strong>Ejemplo 5</strong><a href="recta-real-y-desigualdades.html#ejemplo-5" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad <span class="math inline">\(x^2 \geq -2x+15\)</span></p>
+<p><strong>Solución</strong></p>
+<p>Para la solución de desigualdades con expresiones cuadráticas es necesario retomar los conceptos de expresión cuadrática y fórmula del estudiante.</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+x^2 &amp; \geq &amp; -2x+15\\
+x^2 +2x-15 &amp; \geq  0\\
+(x+5)(x-3) &amp; \geq  0\\
+\end{split}
+\end{equation}\]</span></p>
+<p>usando la fórmula del estudiante tenemos</p>
+<p><span class="math inline">\(A=1\)</span>; <span class="math inline">\(B=2\)</span>; <span class="math inline">\(C=-15\)</span></p>
+<p><span class="math display">\[
+x=\dfrac{-B \pm \sqrt{B^2-4AC}}{2A}
+\]</span></p>
+<!-- \sqrt{{2}^2-4 -->
+<p><span class="math display">\[
+x=\dfrac{-2  \pm \sqrt{({2})^2-4({1})({-15})}}{2({1})}
+\]</span></p>
+<p><span class="math display">\[
+x_1=3
+\]</span></p>
+<p><span class="math display">\[
+x_2=-5
+\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[x\in (-\infty,-5]\cup [3,+\infty)\]</span></p>
+</div>
+<div id="ejemplo-6" class="section level3 hasAnchor" number="3.2.6">
+<h3><span class="header-section-number">3.2.6</span> <strong>Ejemplo 6</strong><a href="recta-real-y-desigualdades.html#ejemplo-6" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><span class="math display">\[
+ \Large \dfrac{x-3}{x+2} &lt; 0
+ \]</span></p>
+<p><strong>Proceso de solución</strong></p>
+<p><span style="color:blue"><strong>Primero:</strong></span> Igualar el factor de arriba a cero</p>
+<p><span class="math display">\[
+ x-3=0
+ \]</span>
+Después despejar <span class="math inline">\(x\)</span></p>
+<p><span class="math display">\[
+ x=3
+\]</span></p>
+<p><span style="color:blue"><strong>Segundo:</strong></span> Igualar el factor de abajo a cero</p>
+<p><span class="math display">\[
+ x+2=0
+ \]</span>
+Despejar <span class="math inline">\(x\)</span></p>
+<p><span class="math display">\[
+ x=-2
+ \]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[x \in (-2,3)\]</span></p>
+</div>
+<div id="ejemplo-7" class="section level3 hasAnchor" number="3.2.7">
+<h3><span class="header-section-number">3.2.7</span> <strong>Ejemplo 7</strong><a href="recta-real-y-desigualdades.html#ejemplo-7" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><span class="math display">\[
+ \Large \dfrac{2x+4}{x-2} &gt; 0
+\]</span></p>
+<p><strong>Solución</strong></p>
+<p><strong>Procedimiento</strong></p>
+<p><span class="math display">\[
+ 2x+4=0
+\]</span>
+Despejar <span class="math inline">\(x\)</span></p>
+<p><span class="math display">\[
+ 2x=-4
+\]</span></p>
+<p><span class="math display">\[
+ x=\dfrac{-4}{2}=-2
+\]</span></p>
+<p><span class="math display">\[
+ x-2=0
+\]</span></p>
+<p><span class="math display">\[
+ x=2
+\]</span></p>
+<p><!-- **Respuesta**: El conjunto solución para la desigualdad es: --></p>
+<p><span class="math display">\[ x \in (-\infty,-2)\cup (2,+\infty)\]</span></p>
+<p><strong>Prueba</strong> ó verificación del conjunto solución</p>
+<p>Sustituir en la desigualdad inical <span class="math inline">\(x=-3\)</span></p>
+<p><span class="math display">\[
+  \Large \dfrac{2(-3)+4}{(-3)-2} &gt; 0
+ \]</span></p>
+<p><span class="math display">\[
+  \Large \dfrac{2}{5} &gt; 0
+ \]</span></p>
+<p>Sustituir en la desigualdad inical <span class="math inline">\(x=3\)</span></p>
+<p><span class="math display">\[
+ \Large \dfrac{2(3)+4}{(3)-2} &gt; 0
+\]</span></p>
+<p><span class="math display">\[
+ \Large 10 &gt; 0
+\]</span></p>
+</div>
+<div id="ejemplo-8" class="section level3 hasAnchor" number="3.2.8">
+<h3><span class="header-section-number">3.2.8</span> <strong>Ejemplo 8</strong><a href="recta-real-y-desigualdades.html#ejemplo-8" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><span class="math display">\[
+ \Large \dfrac{x-4}{x-3}\geq 2
+ \]</span></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+\dfrac{x-4}{x-3} &amp; \geq &amp; 2\\
+\dfrac{x-4}{x-3} -2 &amp; \geq &amp; 0 \\
+\dfrac{x-4}{x-3} -\dfrac{2}{1} &amp; \geq &amp; 0\\
+\dfrac{(x-4).1-2.(x-3)}{(x-3).1} &amp; \geq &amp; 0\\
+\dfrac{x-4-2x+6}{x-3} &amp; \geq &amp; 0\\
+\dfrac{x-2x-4+6}{x-3} &amp; \geq &amp; 0\\
+\dfrac{2-x}{x-3} &amp; \geq &amp; 0
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Solución</strong></p>
+<p>Igualar a cero el factor de arriba
+<span class="math display">\[
+2-x=0
+\]</span></p>
+<p><span class="math display">\[
+2=x
+\]</span></p>
+<p>Igualar a cero el factor de abajo</p>
+<p><span class="math display">\[
+x-3=0
+\]</span>
+<span class="math display">\[
+x=3
+\]</span>
+<strong>Respuesta</strong>: Los <span class="math inline">\(x\)</span> solución son: <span class="math inline">\(x \in [2,3)\)</span></p>
+</div>
+<div id="ejemplo-9" class="section level3 hasAnchor" number="3.2.9">
+<h3><span class="header-section-number">3.2.9</span> <strong>Ejemplo 9</strong><a href="recta-real-y-desigualdades.html#ejemplo-9" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><span class="math display">\[
+\Large \dfrac{2x+4}{x-3}\leq 2
+\]</span></p>
+<p><strong>Solución</strong></p>
+<p><strong>Procedimiento</strong></p>
+<p><span style="color:red"><strong>Primero</strong>:</span></p>
+<p>Dejar el valor de cero de un lado en la desigualdad, y realizar las operaciones necesarias hasta obtener una sola fracción del lado contrario al cero de la desigualdad. Así</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+\dfrac{2x+4}{x-3}  &amp; \leq &amp; 2\\
+\dfrac{2x+4}{x-3} -2 &amp; \leq 0\\
+\dfrac{2x+4}{x-3} -\dfrac{2}{1} &amp; \leq 0\\
+\dfrac{(2x+4).(1)-(2)(x-3)}{(x-3).(1)} &amp; \leq 0\\
+\dfrac{2x+4-2x+6}{x-3} &amp; \leq 0\\
+\dfrac{2x-2x+4+6}{x-3} &amp; \leq 0\\
+\dfrac{4+6}{x-3} &amp; \leq 0\\
+\dfrac{10}{x-3} &amp; \leq 0\\
+\end{split}
+\end{equation}\]</span></p>
+<p><span style="color:red"><strong>Segundo</strong>:</span></p>
+<p><span class="math display">\[
+\boxed{\dfrac{10}{x-3} \leq 0} \ \ \ \text{Como se ve es una desigualdad  menor ó igual a cero }
+\]</span>
+Por lo tanto el signo final deseado en el proceso de las cruces, debe ser <span style="color:red"><strong>la región que arroja signo negativo</strong></span>.</p>
+<p><span style="color:red"><strong>Tercero</strong>:</span></p>
+<p>Aplicar la herramienta de la cruceta, y obtener la solución del problema.</p>
+<p><strong>Respuesta</strong>: El conjunto solución son los valores en el conjunto</p>
+<p><span class="math display">\[
+x \in(-\infty,3)
+\]</span></p>
+</div>
+<div id="ejemplo-10" class="section level3 hasAnchor" number="3.2.10">
+<h3><span class="header-section-number">3.2.10</span> <strong>Ejemplo 10</strong><a href="recta-real-y-desigualdades.html#ejemplo-10" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la siguiente desigualdad</p>
+<p><span class="math display">\[
+3x-8&lt;5x+5
+\]</span>
+<strong>Solución</strong></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+3x-8 &amp; &lt; &amp; 5x+5\\
+3x-5x &amp; &lt; &amp; 5+8\\
+-2x &amp; &lt; &amp; 13\\
+x &amp; &gt; &amp; \dfrac{13}{-2}\\
+x &amp; &gt; &amp; -\dfrac{13}{2}\\
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:
+<span class="math display">\[ x \in \left(-\dfrac{13}{2},+\infty \right)\]</span></p>
+</div>
+<div id="ejemplo-11" class="section level3 hasAnchor" number="3.2.11">
+<h3><span class="header-section-number">3.2.11</span> <strong>Ejemplo 11</strong><a href="recta-real-y-desigualdades.html#ejemplo-11" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><span class="math display">\[
+\frac{2x+1}{8}&lt;\frac{3x-4}{3}
+\]</span>
+<strong>Solución</strong></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+\frac{2x+1}{8} &amp; &lt; &amp; \frac{3x-4}{3}\\
+24\left(\frac{2x+1}{8}\right) &amp; &lt; &amp; 24\left(\frac{3x-4}{3}\right)\\
+3\left(2x+1\right) &amp; &lt; &amp; 8\left(3x-4\right)\\
+6x+3 &amp; &lt; &amp; 24x-32\\
+3+32 &amp; &lt; &amp; 24x-6x\\
+35 &amp; &lt; &amp; 18x\\
+\dfrac{35}{18} &amp; &lt; &amp; x\\
+x &amp; &gt; &amp; \dfrac{35}{18}\\
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[x \in \left(\dfrac{35}{18},+\infty\right)\]</span></p>
+<p><span style="color:red"><strong>Algoritmo para resolver un problema</strong>:</span></p>
+<ul>
+<li><p><span style="color:blue">Primero:</span> Leer el problema mínimo tres veces</p></li>
+<li><p><span style="color:blue">Segundo:</span> Verificar si recuerdas el enunciado del problema</p></li>
+</ul>
+<p><strong>sugerencia</strong>: Repite el enunciado sin ir al texto donde esta escrito el problema.</p>
+<ul>
+<li><p><span style="color:blue">Tercero:</span> Realizar un esquema (ó dibujo) del problema donde se pueda escribir los datos conocidos y los datos por conocer del problema.</p></li>
+<li><p><span style="color:blue">Cuarto:</span> Escirbir como ecuaciones, las relaciones observadas entre los datos conocidos y por conocer, expresados en el paso tres.</p></li>
+<li><p><span style="color:blue">Quinto:</span> Resolver las ecuaciones planteadas en el paso cuarto.</p></li>
+<li><p><span style="color:blue">Sexto:</span> Verificar la solución obtenida.</p></li>
+</ul>
+</div>
+<div id="ejemplo-12" class="section level3 hasAnchor" number="3.2.12">
+<h3><span class="header-section-number">3.2.12</span> <strong>Ejemplo 12</strong><a href="recta-real-y-desigualdades.html#ejemplo-12" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>En general, se considera que una persona tiene fiebre si tiene una temperatura oral mayor que <span class="math inline">\(98.6°F\)</span>.
+¿Qué temperatura en la escala Celsius indica fiebre? [Pista: recuerde que <span class="math inline">\(T_{F}=\frac{9}{5}T_{c}+32\)</span>, donde <span class="math inline">\(T_{C}\)</span> es grados Celsius y <span class="math inline">\(T_{F}\)</span> es
+grados Fahrenheit].</p>
+<p><strong>Planteo del problema</strong></p>
+<p>Sea <span class="math inline">\(T_{C}\)</span> la temperatura en grados Celsius</p>
+<p>Sea <span class="math inline">\(T_{F}\)</span> la temperatura en grados Fahrenheit</p>
+<p>Entonces</p>
+<p><span class="math display">\[
+T_{F}&gt;98.6
+\]</span>
+Como deseamos saber que temperatura en grados Celsius sería registrada para tener fiebre, sustituimos <span class="math inline">\(T_{F}=\frac{9}{5}T_{c}+32\)</span> en la desigualdad anterior, así:</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+T_{F} &amp;&gt;&amp; 98.6\\
+\frac{9}{5}T_{c}+32 &amp;&gt;&amp; 98.6\\
+\frac{9}{5}T_{c} &amp;&gt;&amp; 98.6 -32\\
+9T_{c} &amp;&gt;&amp; (98.6 -32)(5)\\
+9T_{c} &amp;&gt;&amp; (66.6)(5)\\
+9T_{c} &amp;&gt;&amp; 333\\
+T_{c} &amp;&gt;&amp; \dfrac{333}{9}\\
+T_{c} &amp;&gt;&amp; 37\\
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong> Para que una persona tenga fiebre en grados Celsius debe registrar una temperatura mayor a <span class="math inline">\(37C\)</span>.</p>
+</div>
+<div id="ejemplo-13" class="section level3 hasAnchor" number="3.2.13">
+<h3><span class="header-section-number">3.2.13</span> <strong>Ejemplo 13</strong><a href="recta-real-y-desigualdades.html#ejemplo-13" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>La temperatura en escala Fahrenheit y Celsius (centigrados) están relacionados por la fórmula <span class="math inline">\(C=\frac{5}{9}(F-32)\)</span>. ¿A qué temperatura Fahrenheit corresponde una temperatura en escala centígrada que se encuentra? <span class="math inline">\(40\leq C \leq 50\)</span></p>
+<p><strong>Proceso de solución</strong></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+40  &amp; \leq C \leq  50\\
+40  &amp; \leq \frac{5}{9}(F-32) \leq  50\\
+(40)(9)  &amp; \leq (9)\frac{5}{9}(F-32) \leq  (50)(9)\\
+360  &amp; \leq \frac{5}{1}(F-32) \leq  450\\
+\dfrac{360}{5}  &amp; \leq \frac{5}{5}(F-32) \leq  \dfrac{450}{5}\\
+72  &amp; \leq F-32 \leq  90\\
+72+32  &amp; \leq F-32+32 \leq  90+32\\
+104  &amp; \leq F \leq  122\\
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: La temperatura equivalente en grados Fahrenheit es</p>
+<p><span class="math display">\[
+T_{F} \in [104,122]
+\]</span></p>
+</div>
+<div id="ejemplo-14" class="section level3 hasAnchor" number="3.2.14">
+<h3><span class="header-section-number">3.2.14</span> <strong>Ejemplo 14</strong><a href="recta-real-y-desigualdades.html#ejemplo-14" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Un carnaval tiene dos planes de boletos.
+Plan <span class="math inline">\(A\)</span>: tarifa de entrada de <span class="math inline">\(5\)</span> dólares y <span class="math inline">\(25\)</span> centavos cada vuelta en los juegos.
+Plan <span class="math inline">\(B\)</span>: tarifa de entrada de <span class="math inline">\(2\)</span> dólares y <span class="math inline">\(50\)</span> centavos cada vuelta en los juegos.
+¿Cuántas vueltas tendria que dar para que el plan <span class="math inline">\(A\)</span> resultara menos caro que el plan <span class="math inline">\(B\)</span>?</p>
+<p><strong>Planteo del problema</strong></p>
+<p>Sea <span class="math inline">\(x\)</span> el número de vueltas en los juegos.</p>
+<p>Entonces</p>
+<p>Costo del plan <span class="math inline">\(A\)</span>:</p>
+<p><span class="math display">\[
+5+0.25x
+\]</span>
+Costo del plan <span class="math inline">\(B\)</span>:</p>
+<p><span class="math display">\[
+2+0.50x
+\]</span></p>
+<p>Plan <span class="math inline">\(A\)</span> menos caro que el plan <span class="math inline">\(B\)</span>, por lo tanto:</p>
+<p><span class="math display">\[\begin{equation}
+\boxed{5+0.25x &lt; 2+0.50x}
+\end{equation}\]</span></p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+5+0.25x &amp; &lt; &amp; 2+0.50x\\
+5-2 &amp; &lt; &amp; 0.50x-0.25x \\
+3 &amp; &lt; &amp; 0.25x \\
+\dfrac{3}{0.25} &amp; &lt; &amp; x \\
+12 &amp; &lt; &amp; x\\
+x &amp; &gt; &amp; 12
+\end{split}
+\end{equation}\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para el problema es:</p>
+<p><span class="math display">\[
+x \in (12,+\infty)
+\]</span>
+<strong>Verificación</strong></p>
+<p>Tomemos <span class="math inline">\(x=13\)</span> que pertenece al intervalo solución <span class="math inline">\((12,+\infty)\)</span></p>
+<p>Entonces sustituyendo en la desigualdad original tenemos:</p>
+<p><span class="math display">\[\begin{equation}
+\begin{split}
+5+0.25(13) &amp; &lt; &amp; 2+0.50(13)\\
+8.25 &amp; &lt; &amp; 8.5 \ \ \text{Cumple!!}
+\end{split}
+\end{equation}\]</span></p>
+</div>
+<div id="ejemplo-15a" class="section level3 hasAnchor" number="3.2.15">
+<h3><span class="header-section-number">3.2.15</span> <strong>Ejemplo 15A</strong><a href="recta-real-y-desigualdades.html#ejemplo-15a" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad</p>
+<p><span class="math display">\[
+\dfrac{(x+2)(3-x)}{(x+1)(x^2+1)} \leq 0
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigDesigualdad8"></span>
+<img src="images/Desigualdades7.jpg" alt="Respuesta en la recta real ejemplo[Imagen tomada de [@swokowski1996algebra] pág $124$]" width="50%" />
+<p class="caption">
+Figura 3.11: Respuesta en la recta real ejemplo[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(124\)</span>]
+</p>
+</div>
+</div>
+<div id="ejemplo-15b" class="section level3 hasAnchor" number="3.2.16">
+<h3><span class="header-section-number">3.2.16</span> <strong>Ejemplo 15B</strong><a href="recta-real-y-desigualdades.html#ejemplo-15b" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p><span class="math display">\[
+\dfrac{(2x+1)^2(x-1)}{x(x+1)(x-1)} \geq 0
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigDesigualdad9"></span>
+<img src="images/Desigualdades8.jpg" alt="Respuesta en la recta real ejemplo[Imagen tomada de [@swokowski1996algebra] pág $125$]" width="50%" />
+<p class="caption">
+Figura 3.12: Respuesta en la recta real ejemplo[Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(125\)</span>]
+</p>
+</div>
+</div>
+<div id="ejemplo-16a" class="section level3 hasAnchor" number="3.2.17">
+<h3><span class="header-section-number">3.2.17</span> <strong>Ejemplo 16A</strong><a href="recta-real-y-desigualdades.html#ejemplo-16a" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Los lados de un cuadrado se extienden para formar un rectángulo. Como se muestra en la Figura <a href="recta-real-y-desigualdades.html#fig:Rectangulo1">3.13</a>, un lado se extiende <span class="math inline">\(2 cm\)</span> y el otro <span class="math inline">\(5 cm\)</span>. Si el área del rectángulo resultante es menor de <span class="math inline">\(130 cm^2\)</span>, cuál es la posible longitud de un lado del cuadrado original?</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Rectangulo1"></span>
+<img src="images/DesigualdadRectangulo.jpg" alt="Rectángulo que extiende dos de sus lados [Imagen tomada de [@zill2012algebra] pág $197$]" width="20%" />
+<p class="caption">
+Figura 3.13: Rectángulo que extiende dos de sus lados [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(197\)</span>]
+</p>
+</div>
+<p><strong>Proceso de solución</strong></p>
+<p>Sea <span class="math inline">\(x\)</span> la longitud del cuadrado original</p>
+<p>Sea <span class="math inline">\(x+2\)</span> uno de los lados del rectángulo resultante después de extender el cuadrado original.</p>
+<p>Sea <span class="math inline">\(x+5\)</span> el otro lado del rectángulo resultante después de extender el cuadrado original.</p>
+<p>Entonces el área del rectángulo resultante es:</p>
+<p><span class="math display">\[
+(x+2)(x+5)
+\]</span></p>
+<p>Por lo tanto esta área debe ser menor a <span class="math inline">\(130 cm^2\)</span>, es decir</p>
+<p><span class="math display">\[
+(x+2)(x+5)&lt; 130
+\]</span></p>
+<p>de donde</p>
+<p><span class="math display">\[
+\begin{split}
+(x+2)(x+5)-130 &amp;&lt; 0\\
+x(x+5)+2(x+5)-130 &amp;&lt; 0\\
+x^2+5x+2x+10-130 &amp; &lt; 0\\
+x^2+7x-120 &amp; &lt; 0\\
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+x=\dfrac{-7  \pm \sqrt{({7})^2-4({1})({-120})}}{2({1})}
+\]</span></p>
+<p><span class="math display">\[
+x_1=8
+\]</span></p>
+<p><span class="math display">\[
+x_2=-15
+\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución es:</p>
+<p><span class="math display">\[
+x \in \left(0,8\right)
+\]</span></p>
+</div>
+<div id="ejemplo-16b" class="section level3 hasAnchor" number="3.2.18">
+<h3><span class="header-section-number">3.2.18</span> <strong>Ejemplo 16B</strong><a href="recta-real-y-desigualdades.html#ejemplo-16b" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Un grupo de estudiantes decide asistir a un concierto. el costo de contratar a un autobús para que los lleve al concierto es de 450 dólares, lo cual se debe repartir en forma uniforme entre los estudiantes. Los promotores del concierto ofrecen descuentos a grupos que lleguen en autobús. Los boletos cuestan normalmente 50 dólares cada uno, pero se reducen <span class="math inline">\(10\)</span> centavos de dólar del precio del boleto por cada persona que vaya en el grupo (hasta la capacidad máxima del autobús).¿Cuántos estudiantes deben ir en el grupo para que el costo total por estudiante sea menor a 54 dólares?</p>
+<p><strong>Proceso de solución</strong></p>
+<p>Planteo</p>
+<p>Sea <span class="math inline">\(x\)</span> el número de estudiantes que usará el autobús.</p>
+<p>Sea <span class="math inline">\(\dfrac{450}{x}\)</span> el costo del pasaje para cada estudiante.</p>
+<p>Sea <span class="math inline">\(0.10x\)</span> el descuento que se hará a los estudiantes que usaron autobús.</p>
+<p>Costo total para cada estudiante</p>
+<p><span class="math display">\[
+\dfrac{450}{x}+50-0.10x
+\]</span>
+Como se pide que el costo de cada estudiante no pase de <span class="math inline">\(54\)</span> dólares.</p>
+<p>Entonces</p>
+<p><span class="math display">\[
+\dfrac{450}{x}+50-0.10x&lt;54
+\]</span></p>
+<p><span class="math display">\[
+\begin{split}
+\dfrac{450}{x}+50-0.10x &amp;&lt; 54\\
+\dfrac{450}{x}+50-0.10x -54 &amp;&lt; 0\\
+\dfrac{450}{x}-0.10x -4 &amp;&lt; 0\\
+x\left(\dfrac{450}{x}-0.10x -4\right) &amp;&lt;0\\
+450-0.10x^2 -4x &amp;&lt; 0\\
+-0.10x^2 -4x+450 &amp;&lt; 0\\
+-10\left(-0.10x^2 -4x+450 \right) &amp;&gt; (-10)0\\
+x^2+40x-4500 &amp;&gt;0\\
+\end{split}
+\]</span></p>
+<p><span class="math display">\[
+x=\dfrac{-40  \pm \sqrt{({40})^2-4({1})({-4500})}}{2({1})}
+\]</span></p>
+<p><span class="math display">\[
+x_1=50
+\]</span></p>
+<p><span class="math display">\[
+x_2=-90
+\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+x \in \left(50,\text{Capacidad máxima del autobús}\right]
+\]</span></p>
+<p><img src="LibroMateParaInvestigadoresNivelUno-11-2021_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+</div>
+<div id="ejemplo-16c" class="section level3 hasAnchor" number="3.2.19">
+<h3><span class="header-section-number">3.2.19</span> <strong>Ejemplo 16C</strong><a href="recta-real-y-desigualdades.html#ejemplo-16c" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Como se muestra en la figura <a href="recta-real-y-desigualdades.html#fig:Opticafisica1">3.14</a>, si una lente convexa tiene longitud focal de <span class="math inline">\(f\)</span> centímetros y si un objeto se coloca a una distancia de <span class="math inline">\(p\)</span> centímetros de la lente con <span class="math inline">\(p&gt;f\)</span>, entonces la distancia <span class="math inline">\(q\)</span> desde la lente a la imagen está relacionada a <span class="math inline">\(p\)</span> y <span class="math inline">\(f\)</span> mediante la fórmula</p>
+<p><span class="math display">\[
+\dfrac{1}{p}+\dfrac{1}{q}=\dfrac{1}{f}
+\]</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:Opticafisica1"></span>
+<img src="images/ProbDesigualdadOptica1.jpg" alt="Rectángulo que extiende dos de sus lados [Imagen tomada de [@swokowski1996algebra] pág $117$]" width="50%" />
+<p class="caption">
+Figura 3.14: Rectángulo que extiende dos de sus lados [Imagen tomada de <span class="citation">(<a href="#ref-swokowski1996algebra" role="doc-biblioref"><strong>swokowski1996algebra?</strong></a>)</span> pág <span class="math inline">\(117\)</span>]
+</p>
+</div>
+<p>Si <span class="math inline">\(f=5 cm\)</span>, ¿qué tan cerca debe estar el objeto desde la lente para que la imagen esté a más de <span class="math inline">\(12\)</span> centímetros de la lente?</p>
+<p><strong>Proceso de solución</strong>:</p>
+<p><span class="math display">\[
+\dfrac{1}{p}+\dfrac{1}{q}=\dfrac{1}{5}
+\]</span>
+Deseamos determinar los valores de <span class="math inline">\(q\)</span> tales que <span class="math inline">\(q&gt;12\)</span></p>
+<p>Primero se despeja <span class="math inline">\(q\)</span> como sigue:</p>
+<p><span class="math display">\[
+\begin{split}
+\dfrac{1}{p}+\dfrac{1}{q} &amp;=\dfrac{1}{5}\\
+\dfrac{q1+1p}{pq} &amp;=\dfrac{1}{5}\\
+5q+5p &amp;= pq\\
+5q-pq &amp;= -5p\\
+q(5-p) &amp;= -5p\\
+q &amp;= \dfrac{-5p}{(5-p)}\\
+q &amp;= \dfrac{5p}{(p-5)}\\
+\end{split}
+\]</span>
+Entonces</p>
+<p><span class="math display">\[
+q&gt;12 \ \ \ \ \ \text{es equivalente a: }\ \ \ \ \ \ \dfrac{5p}{p-5}&gt;12
+\]</span></p>
+<p>Solución de la nueva desigualdad <span class="math inline">\(\frac{5p}{p-5}&gt;12\)</span></p>
+<p><span class="math display">\[
+\begin{split}
+\dfrac{5p}{p-5} &amp;&gt;12\\
+5p &amp;&gt;12(p-5)   \ \ \ \ \ \text{ya que } \ \ \ \ \ p&gt;f=5 \ \ \ \ \ \text{es decir} \ \ \ \ \ p-5&gt;0\\
+5p &amp;&gt;12p-60\\
+60 &amp;&gt;12p-5p\\
+60 &amp;&gt;7p\\
+\dfrac{60}{7} &amp;&gt;p\\
+p &amp;&lt;\dfrac{60}{7} \ \ \ \ \text{equivalentemente}
+\end{split}
+\]</span></p>
+<p><strong>Respuesta</strong>: como <span class="math inline">\(p&gt;5\)</span> y <span class="math inline">\(p&lt;\dfrac{60}{7}\)</span>, entonces su equivalente es</p>
+<p><span class="math display">\[
+5&lt;p&lt;\dfrac{60}{7}
+\]</span></p>
+<p><a href="https://johnjairoshiny.shinyapps.io/DESIGUALDADV3/">Link para regla de la cruces</a></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:FigRectaRealC"></span>
+<img src="images/Desigualdades2.jpg" alt="Intervalos básicos en la línea real [Imagen tomada de [@zill2012algebra] pág $147$]" width="100%" />
+<p class="caption">
+Figura 3.15: Intervalos básicos en la línea real [Imagen tomada de <span class="citation">(<a href="#ref-zill2012algebra" role="doc-biblioref"><strong>zill2012algebra?</strong></a>)</span> pág <span class="math inline">\(147\)</span>]
+</p>
+</div>
+</div>
+</div>
+<div id="evaluación-fórmula-del-estudiante-parábola-y-línea-recta" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Evaluación (Fórmula del Estudiante, Parábola y Línea Recta)<a href="recta-real-y-desigualdades.html#evaluación-fórmula-del-estudiante-parábola-y-línea-recta" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://johnshinyv2uces.shinyapps.io/parcialSIM003a/?showcase=0" width="672" height="2000px" data-external="1">
+</iframe>
+</div>
+<div id="concepto-de-valor-absoluto" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Concepto de valor absoluto<a href="recta-real-y-desigualdades.html#concepto-de-valor-absoluto" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+<div class="definition">
+<span id="def:unnamed-chunk-4" class="definition"><strong>Definición3.2  </strong></span>Sea <span class="math inline">\(x\)</span> un número real, se define el valor absoluto de <span class="math inline">\(x\)</span> como:
+</div>
+<p><span class="math display">\[
+|x|=\left\{
+x , \text{si} \ \ x&gt;0 \atop
+-x , \text{si} \ \ x \leq 0 
+\right. \ \ \ \ \text{equivalentemente} \ \ \ \ 
+|x|=\left\{
+x , \text{si} \ \ x \geq 0 \atop
+-x , \text{si} \ \ x &lt; 0 
+\right.
+\]</span></p>
+<p>De forma equivalente</p>
+<ul>
+<li><p>Si <span class="math inline">\(x&gt;0\)</span>, entonces <span class="math inline">\(|x|=x\)</span></p></li>
+<li><p>Si <span class="math inline">\(x&lt;0\)</span>, entonces <span class="math inline">\(|x|=-x\)</span></p></li>
+<li><p>Si <span class="math inline">\(x=0\)</span>, entonces <span class="math inline">\(|0|=0\)</span></p></li>
+</ul>
+<p><strong>OBSERVACIÓN</strong>:</p>
+<p>El valor absoluto de un número real <span class="math inline">\(x\)</span> cualquiera (es decir arbitrario) mide la distancia de ese número <span class="math inline">\(x\)</span> al origen (ó cero real).</p>
+<p>En otras palabras <span class="math inline">\(|x|\)</span> mide distancia entre <span class="math inline">\(x\)</span> y el cero real.</p>
+<div id="ejemplo-1-1" class="section level3 hasAnchor" number="3.4.1">
+<h3><span class="header-section-number">3.4.1</span> Ejemplo 1<a href="recta-real-y-desigualdades.html#ejemplo-1-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el valor absoluto indicado</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(|-3|=-(-3)=3\)</span></p></li>
+<li><p><span class="math inline">\(|\pi|=\pi\)</span></p></li>
+<li><p><span class="math inline">\(|\pi-3.5|=-(\pi-3.5)=3.5-\pi\)</span></p></li>
+<li><p><span class="math inline">\(|3-\sqrt{2}|=3-\sqrt{2}\)</span></p></li>
+</ol>
+
+<div class="theorem">
+<p><span id="thm:unnamed-chunk-5" class="theorem"><strong>Teorema 3.1  </strong></span>Sean <span class="math inline">\(x\)</span> y <span class="math inline">\(y\)</span> números reales. Entonces</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(|x| \geq 0\)</span></p></li>
+<li><p><span class="math inline">\(|x|=|-x|\)</span></p></li>
+<li><p><span class="math inline">\(|x|=0\)</span> si y sólo si <span class="math inline">\(x=0\)</span></p></li>
+<li><p><span class="math inline">\(|xy|=|x||y|\)</span></p></li>
+<li><p><span class="math inline">\(\left|\dfrac{x}{y}\right|=\dfrac{|x|}{|y|}\)</span></p></li>
+<li><p><span class="math inline">\(|x+y| \leq |x|+|y|\)</span></p></li>
+</ol>
+</div>
+</div>
+<div id="ejemplo-2-1" class="section level3 hasAnchor" number="3.4.2">
+<h3><span class="header-section-number">3.4.2</span> Ejemplo 2<a href="recta-real-y-desigualdades.html#ejemplo-2-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Usando el concepto de valor absoluto es decir su definición, obtener la respuesta para los siguientes enunciados de forma simplificada.</p>
+<ol style="list-style-type: decimal">
+<li><p>Si <span class="math inline">\(x&gt;-3\)</span>, entonces <span class="math inline">\(|x+3|=?\)</span></p></li>
+<li><p>Si <span class="math inline">\(x&lt;3\)</span>, entonces <span class="math inline">\(|3-x|=?\)</span></p></li>
+</ol>
+<p><strong>Proceso de solución para (1)</strong>:</p>
+<p>Como <span class="math inline">\(x&gt;-3\)</span> es equivalente a <span class="math inline">\(x+3&gt;0\)</span></p>
+<p>Entonces <span class="math inline">\(|x+3|=x+3\)</span></p>
+<p><strong>Proceso de solución para (2)</strong>:</p>
+<p>Como <span class="math inline">\(x&lt;3\)</span> es equivalente a <span class="math inline">\(0&lt;3-x\)</span></p>
+<p>por lo tanto <span class="math inline">\(0&lt;3-x\)</span> es equivalente a <span class="math inline">\(3-x&gt;0\)</span></p>
+<p>Entonces <span class="math inline">\(|3-x|=3-x\)</span></p>
+
+<div class="theorem">
+<p><span id="thm:TMAValor1" class="theorem"><strong>Teorema 3.2  </strong></span>Sea <span class="math inline">\(a \in R^{+}\)</span> y <span class="math inline">\(|x| \leq a\)</span>. Entonces</p>
+<p><span class="math inline">\(|x| \leq a\)</span> es equivalente a:</p>
+<ol style="list-style-type: decimal">
+<li><span class="math inline">\(-a \leq x \leq a\)</span></li>
+</ol>
+<p>ó</p>
+<ol start="2" style="list-style-type: decimal">
+<li><span class="math inline">\(x \geq -a\)</span> y <span class="math inline">\(x \leq a\)</span>
+</div></li>
+</ol>
+</div>
+<div id="ejemplo-3-1" class="section level3 hasAnchor" number="3.4.3">
+<h3><span class="header-section-number">3.4.3</span> Ejemplo 3<a href="recta-real-y-desigualdades.html#ejemplo-3-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la siguiente desigualdad usando el teorema apropiado</p>
+<p><span class="math display">\[\Large \mid x-3\mid&lt;8\]</span></p>
+<p><strong>Proceso de solución</strong>:</p>
+<p>Usando el teorema (<a href="recta-real-y-desigualdades.html#thm:TMAValor1">3.2</a>) se puede expresar la desigualdad con el valor absoluto <span class="math inline">\(\mid x-3\mid&lt;8\)</span> como:</p>
+<p><span class="math display">\[
+\begin{split}
+-8 &amp; &lt; x-3 &lt;  8\\
+-8+3 &amp; &lt; x-3+3 &lt;  8+3\\
+-5 &amp; &lt; x &lt;  11\\
+\end{split}
+\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+x \in (-5,11)
+\]</span></p>
+<p><strong>Verificación</strong></p>
+<p>La verificación se realiza usando uno o mas elementos del conjunto solución. Si al sustituir (ó reemplazar) en la desigualdad origianal se llega a una afirmación lógica verdadera, diremos que cumple la desigualdad.</p>
+<p>Tomemos un elemento <span class="math inline">\(x\)</span> del conjunto <span class="math inline">\((-5,11)\)</span>, por decir <span class="math inline">\(x=2\)</span>, entonces</p>
+<p><span class="math display">\[
+\begin{split}
+|2-3| &amp; &lt; &amp; 8\\
+|-1| &amp; &lt; &amp; 8\\
+1 &amp; &lt; &amp; 8\\ \ \ \ \text{Cumple!!! el valor absoluto}
+\end{split}
+\]</span></p>
+</div>
+<div id="ejemplo-4-1" class="section level3 hasAnchor" number="3.4.4">
+<h3><span class="header-section-number">3.4.4</span> Ejemplo 4<a href="recta-real-y-desigualdades.html#ejemplo-4-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la desigualdad</p>
+<p><span class="math display">\[
+\left|\dfrac{x+2}{3-x} \right| \leq 2  
+\]</span>
+<strong>Proceso</strong></p>
+<p>Aplicando la otra forma del teorema (<a href="recta-real-y-desigualdades.html#thm:TMAValor1">3.2</a>) podemos expresar el enunciado así:</p>
+<p><span class="math display">\[
+\begin{split}
+\left(\dfrac{x+2}{3-x}\right) \geq -2 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \left(\dfrac{x+2}{3-x}\right) \leq 2\\
+\left(\dfrac{x+2}{3-x}\right)+2 \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \left(\dfrac{x+2}{3-x}\right) -2 \leq 0\\
+\left(\dfrac{x+2}{3-x}\right)+\dfrac{2}{1} \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \left(\dfrac{x+2}{3-x}\right) -\dfrac{2}{1} \leq 0\\
+\dfrac{(x+2).1+2(3-x)}{(3-x).1} \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \dfrac{(x+2).1-2(3-x)}{(3-x).1} \leq 0\\
+\dfrac{x+2+6-2x}{3-x} \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \dfrac{x+2-6+2x}{3-x} \leq 0\\
+\dfrac{x-2x+2+6}{3-x} \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \dfrac{x+2x+2-6}{3-x} \leq 0\\
+\dfrac{8-x}{3-x} \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \dfrac{3x-4}{3-x} \leq 0\\
+\dfrac{8-x}{3-x} \geq 0 \ \ \ \ &amp; \text{y} &amp; \ \ \ \ \dfrac{3x-4}{x-3} \geq 0\\
+\end{split}
+\]</span></p>
+<p><strong>Respuesta</strong> El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+Sol_{Izq}:x \in (-\infty,3) \cup [8,+\infty)\\
+Sol_{Der}:x \in \left(-\infty,\dfrac{4}{3}\right] \cup (3,+ \infty)\\
+Sol_{Final}=Sol_{Izq} \cap Sol_{Der}\\
+Sol_{Final}=x \in \left(-\infty,\dfrac{4}{3}\right] \cup [8,+\infty)
+\]</span></p>
+
+<div class="theorem">
+<p><span id="thm:TMAValor2" class="theorem"><strong>Teorema 3.3  </strong></span>Sea <span class="math inline">\(a \in R^{+}\)</span> y <span class="math inline">\(|x| \geq a\)</span>. Entonces</p>
+<span class="math inline">\(|x| \geq a\)</span> es equivalente a <span class="math inline">\(x \leq -a \ \ \ \text{ó} \ \ \ x \geq a\)</span>
+</div>
+</div>
+<div id="ejemplo-5-1" class="section level3 hasAnchor" number="3.4.5">
+<h3><span class="header-section-number">3.4.5</span> Ejemplo 5<a href="recta-real-y-desigualdades.html#ejemplo-5-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la siguiente desigualdad usando el teorema apropiado</p>
+<p><span class="math display">\[\Large \mid x-6\mid&gt;6\]</span></p>
+<p><strong>Proceso de solución</strong>:</p>
+<p>Usando el teorema (<a href="recta-real-y-desigualdades.html#thm:TMAValor2">3.3</a>) se puede expresar la desigualdad con el valor absoluto <span class="math inline">\(\mid x-6\mid&gt;6\)</span> como:</p>
+<p><span class="math display">\[
+\begin{split}
+(x-6) &lt; -6 \ \ \ &amp;\text{ó}&amp; \ \ \ (x-6) &gt; 6\\
+x &lt; -6+6 \ \ \ &amp;\text{ó}&amp; \ \ \ x&gt; 6+6\\
+x &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ x&gt; 12\\
+\end{split}
+\]</span></p>
+<p><strong>Respuesta</strong>: El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+x \in (-\infty,0) \cup (12,+\infty)
+\]</span></p>
+</div>
+<div id="ejemplo-6-1" class="section level3 hasAnchor" number="3.4.6">
+<h3><span class="header-section-number">3.4.6</span> Ejemplo 6<a href="recta-real-y-desigualdades.html#ejemplo-6-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Obtener el conjunto solución para la siguiente desigualdad usando el teorema apropiado</p>
+<p><span class="math display">\[\left| \dfrac{x+1}{x-3}\right|&gt;2\]</span>
+<span class="math display">\[
+\begin{split}
+\dfrac{x+1}{x-3} &lt; -2 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{x+1}{x-3} &gt; 2\\
+\dfrac{x+1}{x-3}+2 &lt;0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{x+1}{x-3}-2&gt; 0\\
+\dfrac{x+1}{x-3}+\dfrac{2}{1} &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{x+1}{x-3}-\dfrac{2}{1}&gt; 0\\
+\dfrac{1(x+1)+2(x-3)}{1(x-3)} &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{1(x+1)-2(x-3)}{1(x-3)} &gt; 0\\
+\dfrac{x+1+2x-6}{1(x-3)} &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{x+1-2x+6}{1(x-3)} &gt; 0\\
+\dfrac{x+2x+1-6}{1(x-3)} &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{x-2x+1+6}{1(x-3)} &gt; 0\\
+\dfrac{3x-5}{(x-3)} &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{7-x}{(x-3)} &gt; 0\\
+\dfrac{3x-5}{(x-3)} &lt; 0 \ \ \ &amp;\text{ó}&amp; \ \ \ \dfrac{x-7}{(x-3)} &lt; 0\\
+\end{split}
+\]</span></p>
+<p><strong>Respuesta</strong> El conjunto solución para la desigualdad es:</p>
+<p><span class="math display">\[
+Sol_{Izq}=\left(\dfrac{5}{3},3\right)\\
+Sol_{Der}= (3,7)\\
+Sol_{Final}=Sol_{Izq} \cup Sol_{Der}\\
+Sol_{Final}=\left(\dfrac{5}{3},3\right) \cup (3,7)
+\]</span></p>
+
+<div class="definition">
+<p><span id="def:unnamed-chunk-6" class="definition"><strong>Definición3.3  </strong></span>Sean <span class="math inline">\(a\)</span> y <span class="math inline">\(b\)</span> dos números en la recta de los números reales, la distancia de <span class="math inline">\(a\)</span> a <span class="math inline">\(b\)</span> está dada por:</p>
+<span class="math display">\[d(a,b)=|b-a|\]</span>
+</div>
+</div>
+<div id="ejemplo-7-1" class="section level3 hasAnchor" number="3.4.7">
+<h3><span class="header-section-number">3.4.7</span> Ejemplo 7<a href="recta-real-y-desigualdades.html#ejemplo-7-1" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Hallar la distancia entre los números reales indicados en el enunciado:</p>
+<ol style="list-style-type: decimal">
+<li><p><span class="math inline">\(d(-2,3)=5\)</span></p></li>
+<li><p><span class="math inline">\(d(1,4)=3\)</span></p></li>
+<li><p><span class="math inline">\(d(-5,-1)=4\)</span></p></li>
+</ol>
+<iframe src="https://johnestradanclase.shinyapps.io/ValorAbsoluto1/?showcase=0" width="672" height="1000px" data-external="1">
+</iframe>
+</div>
+</div>
+<div id="evaluación-desigualdades-y-valor-absoluto" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Evaluación (Desigualdades y Valor absoluto)<a href="recta-real-y-desigualdades.html#evaluación-desigualdades-y-valor-absoluto" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://johnshinyuces2020.shinyapps.io/parcialSIMO02B/?showcase=0" width="672" height="2000px" data-external="1">
+</iframe>
+</div>
+<div id="evaluación-problemas-con-desigualdades" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Evaluación (Problemas con desigualdades)<a href="recta-real-y-desigualdades.html#evaluación-problemas-con-desigualdades" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://johnshinyuces2020.shinyapps.io/parcialSIMO04ProblasConDesigualdades?showcase=0" width="672" height="2000px" data-external="1">
+</iframe>
+</div>
+<div id="potenciación-y-radicales." class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> Potenciación y radicales.<a href="recta-real-y-desigualdades.html#potenciación-y-radicales." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="ecuaciones-lineales-y-cuadráticas." class="section level2 hasAnchor" number="3.8">
+<h2><span class="header-section-number">3.8</span> Ecuaciones lineales y cuadráticas.<a href="recta-real-y-desigualdades.html#ecuaciones-lineales-y-cuadráticas." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="ecuaciones-polinomicas-de-grado-mayor-a-2." class="section level2 hasAnchor" number="3.9">
+<h2><span class="header-section-number">3.9</span> Ecuaciones polinomicas de grado mayor a 2.<a href="recta-real-y-desigualdades.html#ecuaciones-polinomicas-de-grado-mayor-a-2." class="anchor-section" aria-label="Anchor link to header"></a></h2>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="conceptos-introductorios.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="sistemas-de-ecuaciones-lineales..html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-Operaciones-y-propiedades-de-los-numeros-reales.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["LibroMateParaInvestigadoresNivelUno 11-2021.pdf", "LibroMateParaInvestigadoresNivelUno 11-2021.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

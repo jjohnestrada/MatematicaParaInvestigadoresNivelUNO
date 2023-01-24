@@ -1,0 +1,130 @@
+--- 
+title: "Matemáticas para investigadores nivel uno"
+author: "Rubén Darío Manrique Hernández - Juan Alberto Arias Quiceno - John Jairo Estrada Álvarez"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro.
+link-citations: yes
+# github-repo: rstudio/bookdown-demo
+---
+
+
+
+
+
+
+
+
+
+
+# Introducción
+<!-- https://www.geogebra.org/classic/fv6hycxt -->
+
+
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta charset="utf-8"/>
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+<div id="ggb-elementSuperficieJJA2021"></div>
+<script>
+       var ggbAppSuperficieJJA2021 = new GGBApplet({"material_id":"fv6hycxt",
+       "width": 600,
+       "height": 400,
+       "showToolBar": false,
+       "showAlgebraInput": false,
+       "showMenuBar": false },
+       true);
+
+         window.addEventListener("load", function() {
+           ggbAppSuperficieJJA2021.inject('ggb-elementSuperficieJJA2021');
+      });
+</script>
+
+
+## Justificación
+
+
+El hombre está en busca de cuantificar todo y la medicina   no es un universo aparte, son incontables los trabajos realizados entre médicos, matemáticos, ingenieros, físicos haciendo que la ciencia progrese, con este curso y venideros si es posible,  se quieren dar los primeros pasos para que las personas involucradas con las ciencias de la salud o de otras ramas se acerquen a la matemática y  la apliquen en el momento oportuno, al adquirir los conceptos básicos se puede ir avanzando  en  temas un poco más avanzados e igualmente ver la utilidad en su quehacer diario, y a lo mejor adquirir las bases para realizar investigaciones en el área  de la medicina, hay que tener en cuenta que esto lleva tiempo.
+
+
+## Objetivo General
+
+Solución de problemas relacionados con las ciencias de la salud y  de  otros contextos(economía, etc), es decir, adquirir las nociones básicas de los fundamentos matemáticos y su relación con diferentes campos.
+
+### Obejtivo Específicos
+
+* Aplicar las propiedades fundamentales de los operadores matemáticos.
+
+* Aplica destrezas básicas prácticas para la resolución de ecuaciones.
+
+* Incorporar destrezas básicas para analizar funciones.
+
+* Interpretar el concepto de derivada y razón de cambio y su uso práctico.
+
+* Asimilar fundamentos del enfoque matemático y su aplicación en otros campos como el de la salud, y su relación estrecha con la generación de conocimiento.
+
+* Reconocer comportamientos y/o modelos matemáticos inmersos en cualquier proceso en ciencias de la salud o en procesos administrativo. 
+
+* Aplicar en forma eficaz las herramientas suministradas para la solución de situaciones problémicas.
+
+
+
+## Presentación del contenido
+
+*  **Capítulo 1**
+    + Conceptos Introductorios
+    + Teoría de conjuntos.
+    + Conjuntos numéricos.
+      - Tiempo de realización 2 horas 1 secciones
+
+
+*  **Capítulo 2**
+   + Operaciones y propiedades de los números reales.
+   + Inecuaciones.
+   + Potenciación y radicales.
+   + Ecuaciones lineales y cuadráticas.
+   + Ecuaciones polinomicas de grado mayor a dos.
+      - Tiempo de realización 8 horas 4 secciones
+
+
+
+*  **Capítulo 3**
+    + Sistemas de ecuaciones lineales.
+    + Sistema de ecuaciones no lineales.
+    + Solución numérica de ecuaciones no lineales.
+      - Tiempo de realización 8 horas 6 secciones
+
+
+*  **Capítulo 4**
+    + Planteo y solución de problemas
+    + Regla de tres simple directa e inversa.
+    + Regla de tres compuesta.
+      - Tiempo de realización 8 horas 3 secciones
+
+
+* **Capítulo 5**
+    + Concepto de función.
+    + Tipos de funciones.
+    + Operaciones entre funciones.
+    + Regresión lineal.
+      - Tiempo de realización 6 horas 4 secciones
+      
+      
+* **Capítulo 6**
+  + Evidencias del aprendizaje.
+    - Tiempo de realización 8 horas 4 secciones
+
+
+**Total 40 horas** 
+
+  
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
