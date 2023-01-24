@@ -8,7 +8,7 @@ bibliography: [book.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  Este es un ejemplo mínimo del uso del paquete bookdown para escribir un libro.
+  Este es un ejemplo mínimo del uso para el paquete bookdown para escribir un libro.
 link-citations: yes
 # github-repo: rstudio/bookdown-demo
 ---
